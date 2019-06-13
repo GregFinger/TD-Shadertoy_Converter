@@ -1,5 +1,7 @@
 # TD-Shadertoy_Converter
 
+![screenshot](screenshot.png "screenshot")
+
 The .tox component has 6 inputs. The first input is the shader code DAT. The second input is for an audio CHOP. The remaining four are TOP inputs. These inputs can be 2D textures or cubemaps. 
 
 The .tox component has 3 pages of custom parameters:
