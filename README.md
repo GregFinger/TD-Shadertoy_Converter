@@ -6,7 +6,7 @@ This converter is for taking shader code (ie. super slick glsl graphics) from [S
 
 ### The .tox component has 3 pages of custom parameters:
 
-1. The first page sets the iChannel[0-3] inputs, which you can choose 2D Texture, Cubemap or Audio. Set these according to what the shadertoy source had as their iChannel inputs. 
+1. The first page sets the iChannel[0-3] inputs, which you can choose 2D Texture, Cubemap or Audio. Set these according to what the shadertoy source has as its iChannel inputs. 
 ![page1](images/page1.png)
 
 2. The second page sets the resolution of the output, has an adjustment for the speed of iTime, turns off/on mouse control (which the mouse interactivity happens within the TD window) and adjusts the gain for the audio inputs.
