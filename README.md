@@ -2,11 +2,11 @@
 
 ![base](images/base.png)
 
-The .tox component has 6 inputs. The first input is the shader code DAT. The second input is for an audio CHOP. The remaining four are TOP inputs. These inputs can be 2D textures or cubemaps. 
+This converter is for taking shader code (ie. super slick glsl graphics) from [ShaderToy](www.shadertoy.com) and converting it for use in [TouchDesigner](www.derivative.ca) and setting up control to interact with parameters that affect the graphics. The .tox component has 6 inputs. The first input is the shader code DAT. The second input is for an audio CHOP. The remaining four are TOP inputs. These inputs can be 2D textures or cubemaps. 
 
 ### The .tox component has 3 pages of custom parameters:
 
-1. The first page sets the iChannel[0-3] inputs, which you can choose 2D Texture, Cubemap or Audio. Set these according to what the shadertoy source had setup. 
+1. The first page sets the iChannel[0-3] inputs, which you can choose 2D Texture, Cubemap or Audio. Set these according to what the shadertoy source had as their iChannel inputs. 
 ![page1](images/page1.png)
 
 2. The second page sets the resolution of the output, has an adjustment for the speed of iTime, turns off/on mouse control (which the mouse interactivity happens within the TD window) and adjusts the gain for the audio inputs.
